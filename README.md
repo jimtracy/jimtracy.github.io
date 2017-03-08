@@ -1,40 +1,32 @@
-## Welcome to GitHub Pages
+# Dekyll
 
-You can use the [editor on GitHub](https://github.com/jimtracy/jimtracy.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Jekyll theme based on default Jekyll's default style. [Demo Dekyll Theme](http://www.kaklabs.com).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+All configuration is under `_config.yml` file.
 
-### Markdown
+### Dependencies
+* jekyll 3
+* jekyll-sitemap
+* jekyll-paginate
+* jekyll-redirect-from
+* jekyll-seo-tag
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Features
+* Support Jekyll 3
+* No Javascript required
+* CSS Compression
+* Related articles
+* Responsive
+* Support pagination
+* Sitemap
+* Support redirection
+* Social media sharing buttons
+* Google Analytic and Disqus
+* Jekyll SEO tag
 
-```markdown
-Syntax highlighted code block
+### How to Build
+Google Analytic and Disqus are only rendered in production environment, you must set `JEKYLL_ENV=production` when building Dekyll.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jimtracy/jimtracy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-
-###THIS IS A TEST
+JEKYLL_ENV=production jekyll build
+```
